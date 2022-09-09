@@ -1,0 +1,48 @@
+.main-title-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1733px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('https://openqube.io/img/slider_bg.jpg'); 
+    background-position: 0;
+    /* filter: hue-rotate(-30deg); */
+}
+
+.main-title {
+    display: inline-block;
+    align-self: center;
+    padding: 0 20px;
+    margin: 11px auto;
+    color: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.main-title span {
+    margin: 0;
+    line-height: 40px;
+}
+
+.main-title .first-line {
+    font-size: 22px;
+}
+
+@media (min-width: 340px) and (max-width: 768px) {
+    .main-title {
+        margin-top: 11px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title-wrapper {
+        height: 160px;
+    }
+    .main-title {
+        padding: 0 20px;
+        font-size: 22px;
+    }
+}
